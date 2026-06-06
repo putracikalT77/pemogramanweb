@@ -36,6 +36,5 @@ Apakah kamu butuh bantuan dengan tugas kuliah atau proyek IT? Saya membuka jasa 
 ### 📫 Tertarik? Mari Diskusi!
 
 Untuk konsultasi tugas atau menanyakan *rate* pengerjaan, silakan hubungi saya melalui:
-- 📧 **Email:** [Masukkan Email Anda di sini]
-- 💬 **WhatsApp/Telegram:** [Masukkan Tautan Kontak Anda di sini]
-- 💼 **LinkedIn:** [Masukkan Tautan LinkedIn Anda di sini]
+- 📧 **Email:** nadzifzikri@gmail.com
+- 💬 **Telegram:** https://t.me/esbuahbg
