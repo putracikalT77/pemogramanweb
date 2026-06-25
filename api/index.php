@@ -14,4 +14,6 @@ $_ENV['SESSION_DRIVER'] = 'cookie';
 $_SERVER['CACHE_STORE'] = 'array';
 $_ENV['CACHE_STORE'] = 'array';
 
+$_SERVER['SCRIPT_NAME'] = '/index.php';
+
 require __DIR__ . '/../public/index.php';
