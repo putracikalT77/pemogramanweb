@@ -58,7 +58,7 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
-                \Pdo\Mysql\ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt',
+                \Pdo\Mysql::ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt',
             ]) : [],
         ],
 
