@@ -93,7 +93,7 @@
     $(document).ready(function(){
         $('#tabel_user').DataTable({
             ajax: {
-                url: '{{ route("list-users") }}',
+                url: '/api/users-list',
                 dataSrc: 'data',
                 method: 'GET',
                 headers: {
