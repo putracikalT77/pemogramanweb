@@ -58,8 +58,7 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
-                // \Pdo\Mysql::ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt',
-                constant(class_exists('Pdo\Mysql') ? 'Pdo\Mysql::ATTR_SSL_CA' : 'PDO::MYSQL_ATTR_SSL_CA') => '/etc/ssl/certs/ca-certificates.crt',
+                constant(class_exists('Pdo\Mysql') ? 'Pdo\Mysql::ATTR_SSL_VERIFY_SERVER_CERT' : 'PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT') => false,
             ]) : [],
         ],
 
@@ -79,8 +78,7 @@ return [
             'strict' => true,
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
-                // \Pdo\Mysql::ATTR_SSL_CA => '/etc/ssl/certs/ca-certificates.crt',
-                constant(class_exists('Pdo\Mysql') ? 'Pdo\Mysql::ATTR_SSL_CA' : 'PDO::MYSQL_ATTR_SSL_CA') => '/etc/ssl/certs/ca-certificates.crt',
+                constant(class_exists('Pdo\Mysql') ? 'Pdo\Mysql::ATTR_SSL_VERIFY_SERVER_CERT' : 'PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT') => false,
             ]) : [],
         ],
 
