@@ -7,6 +7,10 @@
   },
   "routes": [
     {
+      "src": "/(bootstrap-5.3.8-dist|images|css|js)/(.*)",
+      "dest": "/public/$1/$2"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
